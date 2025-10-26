@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
   </head>
   <body>
-    <main>
-    </main>
+    <h1>Color Space Visualizer </h1>
+    <br/>
+    <div id="buttons">
+      <button type="button"onclick="rgb()">RGB</button>
+      <button type="button"onclick="hsb()">HSB</button>
+      <button type="button"onclick="hsl()">HSL</button>
+      <button type="button"onclick="lab()">LAB</button>
+    </div>
+    <br/>
+    
+    
+    <div id="sketch-holder">
+      <!-- Our sketch will go here! -->
+    </div>
     <script src="sketch.js"></script>
   </body>
 </html>
